@@ -1,0 +1,25 @@
+{
+  "name": "pauljulio/php-slim-amazon-echo",
+  "description": "Slim Framework Middleware module for Amazon Echo (Alexa) service",
+  "minimum-stability": "dev",
+  "license": "apache v2",
+  "authors": [
+    {
+      "name": "Paul Hulett",
+      "email": "paulhulett@gmail.com"
+    }
+  ],
+  "require": {
+    "pauljulio/php-stream-json": "1.*",
+    "pauljulio/php-settings-ini": "1.*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "5.0.*",
+    "mockery/mockery": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "PaulJulio\\SlimEcho\\": "src"
+    }
+  }
+}
