@@ -10,8 +10,7 @@
     }
   ],
   "require": {
-    "pauljulio/php-stream-json": "1.*",
-    "pauljulio/php-settings-ini": "1.*"
+    "pauljulio/php-stream-json": "1.*"
   },
   "require-dev": {
     "phpunit/phpunit": "5.0.*",
