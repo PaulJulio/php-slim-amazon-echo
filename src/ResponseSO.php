@@ -55,9 +55,9 @@ class ResponseSO {
     }
 
     /**
-     * @param mixed $outputSpeech
+     * @param ResponseSpeech $outputSpeech
      */
-    public function setOutputSpeech($outputSpeech) {
+    public function setOutputSpeech(ResponseSpeech $outputSpeech) {
         $this->outputSpeech = $outputSpeech;
     }
 
@@ -71,7 +71,7 @@ class ResponseSO {
     /**
      * @param ResponseSpeech $reprompt
      */
-    public function setReprompt($reprompt) {
+    public function setReprompt(ResponseSpeech $reprompt) {
         $this->reprompt = $reprompt;
     }
 
