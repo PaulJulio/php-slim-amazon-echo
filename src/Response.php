@@ -30,7 +30,7 @@ class Response {
         return $instance;
     }
 
-    public function writeToJsonStream(\PaulJulio\StreamJSON\StreamJSON $stream) {
+    public function writeToJsonStream($stream) {
         $stream->offsetSet('version', $this->version);
         if (isset($this->sessionAttributes)) {
             $stream->offsetSet('sessionAttributes', $this->sessionAttributes);
